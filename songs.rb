@@ -1,5 +1,5 @@
 
-class Songs
+class Song
 
   attr_reader :title, :popularity
 
@@ -12,4 +12,4 @@ class Songs
     return "Song plays on the video screen"
   end
 
-end 
+end

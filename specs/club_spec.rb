@@ -8,7 +8,11 @@ class ClubTest < MiniTest::Test
 
   def setup
     @club = Club.new("CodeClanCaraoke")
-    
+    @room = Room.new(30)
+  end
+
+  def test_add_guest_to_room
+
   end
 
 end
