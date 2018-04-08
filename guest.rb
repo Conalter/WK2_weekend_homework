@@ -7,7 +7,7 @@ class Guest
   end
 
   def guest_name()
-    return @name
+    return @name = name
   end
 
 end

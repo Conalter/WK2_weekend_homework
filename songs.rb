@@ -8,8 +8,12 @@ class Song
     @popularity = popularity
   end
 
-  def play_song
-    return "Song plays on the video screen"
+  def song_name()
+    return @title = title
+  end
+
+  def song_popularity()
+    return @popularity = popularity
   end
 
 end

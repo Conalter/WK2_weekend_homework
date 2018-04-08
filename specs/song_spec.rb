@@ -4,11 +4,15 @@ require_relative("../songs.rb")
 class SongsTest < MiniTest::Test
 
   def setup()
-    @songs = Songs.new("Super Happy Song", 9)
+    @songs = Song.new("Super Happy Karaoke Song!", 9)
   end
 
-  def test_song_can_play()
-    assert_equal("Song plays on the video screen", @songs.play_song)
+  def test_song_name()
+    assert_equal("Super Happy Karaoke Song!", @songs.song_name)
+  end
+
+  def test_song_popularity()
+    assert_equal(9, @songs.song_popularity)
   end
 
 end
